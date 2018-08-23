@@ -6331,7 +6331,9 @@ header {
   header .navbar-brand img {
     max-height: 1rem; }
   header ul li {
-    line-height: 3rem; }
+    line-height: 3rem;
+    width: 60px;
+    text-align: center; }
     header ul li a {
       color: #000; }
   @media (min-width: 768px) {
