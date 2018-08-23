@@ -7,13 +7,13 @@ header
 			max-height: 1rem
 	ul
 		li
-			line-height: 3rem
+			line-height: 1rem
 			width: 60px
 			text-align: center
 			a
 				color: #000
 	/*Reponsive on medium devices*/
-	+media-breakpoint-up(md)
+	+media-breakpoint-up(sm)
 		.navbar-brand
 			img 
 				max-height: 2rem
@@ -21,6 +21,7 @@ header
 	+media-breakpoint-up(lg)
 		ul
 			li
+				line-height: 3rem
 				a
 				&:hover,&:active
 					box-shadow: inset 0px 4px 0px -1px rgba(150,65,162,1)
