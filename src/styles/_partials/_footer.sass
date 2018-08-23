@@ -1,3 +1,38 @@
 footer
-	img 
-		max-width: 200px
+	background: #083e64
+	color: #fff
+	.footer_text
+		line-height: 2rem
+		display: flex
+		align-items: center
+		p
+			margin-bottom: 0
+	.footer_icon
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		ul
+			margin-bottom: 0
+			line-height: 2rem
+			li
+				a
+					display: flex
+					justify-content: center
+					align-items: center
+					text-align: center
+					display: block
+					height: 2rem
+					line-height: 2rem
+					border-radius: 50%
+					background: #849FB2
+					width: 2rem
+					transition: .3s all ease-in-out
+					color: #083E64
+				&:hover,
+				&:active
+					a
+						background: #fff
+	+media-breakpoint-down(sm)
+		padding-bottom: 0
+		.footer_text,.footer_icon
+			justify-content: center
