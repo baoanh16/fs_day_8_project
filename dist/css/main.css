@@ -6363,11 +6363,8 @@ footer {
       margin-bottom: 0;
       line-height: 2rem; }
       footer .footer_icon ul li a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         display: block;
+        text-align: center;
         height: 2rem;
         line-height: 2rem;
         border-radius: 50%;
@@ -6376,6 +6373,7 @@ footer {
         transition: .3s all ease-in-out;
         color: #083E64; }
       footer .footer_icon ul li:hover a, footer .footer_icon ul li:active a {
+        text-decoration: none;
         background: #fff; }
   @media (max-width: 767.98px) {
     footer {
